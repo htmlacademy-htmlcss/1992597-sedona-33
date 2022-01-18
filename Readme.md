@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Игорь Сохань](https://up.htmlacademy.ru/htmlcss/33/user/1992597).
-* Наставник: `Artem Ryzhov`.
+* Наставник: `Artem Ryzhov` Артём Рыжов.
 
 ---
 
