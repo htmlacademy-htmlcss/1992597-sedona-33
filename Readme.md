@@ -4,7 +4,7 @@
 <<<<<<< HEAD
 * Наставник: `Artem Ryzhov`.
 =======
-* Наставник: `Artem Ryzhov` Артём Рыжов.
+* Наставник: `Artem Ryzhov`.
 >>>>>>> 15f66738b429aa59428ea3dfab6d4b2757725f6d
 
 ---
