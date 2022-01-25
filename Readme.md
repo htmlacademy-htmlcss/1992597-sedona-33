@@ -2,9 +2,9 @@
 
 * Студент: [Игорь Сохань](https://up.htmlacademy.ru/htmlcss/33/user/1992597).
 <<<<<<< HEAD
-* Наставник: `Artem Ryzhov`.
+* Наставник: `Slonov Boris`.
 =======
-* Наставник: `Artem Ryzhov` Артём Рыжов.
+* Наставник: `Slonov Boris`.
 >>>>>>> 15f66738b429aa59428ea3dfab6d4b2757725f6d
 
 ---
