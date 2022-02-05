@@ -1,0 +1,432 @@
+@font-face{
+    font-family:"PT Sans";
+    font-style:normal;
+    font-weight:400;
+    src:url("fonts/ptsans-400.woff2");
+    font-display: swap;
+}
+@font-face{
+    font-family:"PT Sans";
+    font-style:normal;
+    font-weight:700;
+    src:url("fonts/ptsans-700.woff2");
+    font-display:swap;
+}
+
+
+body{
+   font-family:"PT Sans",Arial;
+   font-size:18px;
+   line-height:21px;
+   background: white;
+   color: black;
+   
+}
+
+/* фон */
+.page-header{
+    background:white;
+    color:#000000;
+    
+}
+
+/* ссылки */
+.page-header a{
+    color:black;
+    font-size:20px;
+    line-height:26px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 34px;
+    
+    
+   
+}
+.page-list{
+    list-style-type:none;
+}
+.list-item{
+    display:block;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+.navigation-user{
+    list-style-type:none;  
+}
+
+.navigation{
+   display: flex;
+   width:1200px;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-between;
+   
+}
+.navigation-link{
+    vertical-align:center;
+}
+
+/* флекс контейнер */
+.navigation-user{
+    display:flex;
+}
+
+.page-list{
+    display:flex;
+    padding:0;
+    margin:0;
+}
+.logo{
+    margin:0;
+    padding:0;
+    padding-left: 70px;
+    padding-right: 47px;
+ 
+ }
+
+ .want-here{
+    background: #756257;
+    color:#ffffff;
+    width:160px;
+    height:37px;
+    font-size: 16px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    border-radius:4px;
+    margin-right: 70px;
+    
+}
+
+
+
+
+/* фон */
+.gorgeous-sedona{
+    background: url("images/index-background.jpg") no-repeat;
+    width: 1200px;
+    height:485px;
+    background-color:black no-repeat;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0;
+}
+/*  */
+.welcom-gorgeous{
+    margin:0;
+    padding-top:51px;
+}
+
+
+
+/* текст */
+.title{
+  font-size:30px;
+  line-height:36px;
+  font-weight:700;
+  text-transform:uppercase;
+  text-align:center;
+  margin:0;
+  padding-top: 63px;
+  padding-bottom: 31px;
+
+}
+/* текст */
+.cool-sedona{
+    font-size:22px;
+    line-height:36px;
+    font-weight: 400;
+    text-align:center;
+    margin:0;
+    padding-bottom:80px;
+    
+}
+/* блок  */
+.real-town-number{
+    border: solid 1px #83B3D3;
+    background: #83B3D3;
+    width:400px;
+    height: 384px;
+    color:#FFFFFF;
+    margin:0;
+}
+/* содержимое */
+.real{
+    font-size:24px;
+    line-height:28px;
+    font-weight:700;
+    text-transform: uppercase;
+    margin:0;
+    padding-top: 97px;
+    text-align:center;
+}
+
+.number-one{
+    font-size:18px;
+    line-height:21px;
+    text-align:center;
+    margin:0;
+    padding-top: 30px;
+}
+
+
+.sedona-for-life{
+    font-size:18px;
+    line-height:21px;
+    text-align:center;
+    margin:0px;
+    padding-top:30px;
+    padding-bottom:87px;
+}
+/* фото */
+.real-town-image{
+    margin:0;
+}
+/* флекс контейнер */
+.real-town{
+    display:flex;
+    justify-content:center;
+
+}
+  
+/* блок */
+.adventure-item{
+    border: solid 1px#83B3D31F;
+    background-color:#83B3D31F;
+    width:400px;
+    height:384px;
+    text-align: center;
+    list-style-type:none;
+}
+/* блок */
+.adventure-item-white{
+    border: solid 1px #FFFFFF;
+    background-color: #FFFFFF;
+    width:400px;
+    height:384px;
+    text-align: center;
+    list-style-type:none;
+} 
+/* содержимое */
+.adventure-item-white h2{
+  text-transform:uppercase;
+} 
+
+.adventure-item p{
+    font-size:18px; 
+    line-height:21px;
+    margin:0;
+    padding-top:20px;
+}
+.adventure-item h2{
+    font-size:24px;
+    line-height:28px;
+    text-transform:uppercase;
+    margin:0;
+    padding-top:23px;
+}
+.home{
+    margin:0;
+    padding-top:89px;
+}
+.eat{
+    margin:0;
+    padding-top:91px;
+}
+.present{
+    margin:0;
+    padding-top:85px;
+} 
+.adventure-list{
+    margin:0;
+    padding:0;
+}
+
+/* флекс контейнер */
+.adventure-list{
+    display:flex;
+    justify-content: center;
+}
+
+/* блок */
+.bridge-diablo-number{
+    border:solid 1px;
+    width:400px;
+    height:384px;
+    text-align:center;
+    color: #FFFFFF;
+    background-color: #83B3D3;
+}
+
+
+.bridge-diablo-image{
+    margin: 0;
+}
+
+.bridge{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin:0;
+    padding-top:98px;
+}
+
+.number-two{
+    font-size:18px;
+    line-height:21px;
+    text-align:center;
+    margin:0;
+    padding-top: 29px;
+}
+/* флекс контейнер */
+.bridge-diablo{
+    display: flex;
+    margin-top:0;
+    justify-content: center;
+}
+ 
+/* блок */
+.advantages-item{
+    border:solid 1px  #83B3D31F ;
+    background-color: #83B3D31F;
+    width:400px;
+    height:384px;
+    text-align:center;
+    color: #000000;
+    list-style-type: none;
+}
+/* блок */
+.advantages-item-four{
+    border:solid 1px  #83B3D31F ;
+    background-color: #83B3D333;
+    width:400px;
+    height:384px;
+    text-align:center;
+    color: #000000;
+    list-style-type: none;
+} 
+
+/* содержимое */
+
+.uppercase{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform:uppercase;
+    margin:0;
+    padding-top:98px;
+}
+
+.number{
+margin:0;
+padding-top:29px;
+}
+.description{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin:0;
+    padding-top:30px;
+}
+
+.advantages-list{
+    margin:0;
+    padding:0;
+}
+/* флекс контейнер */
+.advantages-list{
+    display: flex;
+    justify-content: center;
+}
+
+/* блок поиска гостиницы */
+.interest-hostel{
+    border:solid 1px #FFFFFF;
+    background: #FFFFFF;
+    color:#000000;
+    width:1200px;
+    height:417px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* соддержимое */
+.interest{
+    font-size:30px;
+    line-height:36px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin:0;
+    padding-top:91px;
+}
+.best-hostel{
+   font-size:22px;
+   line-height:26px;
+   font-weight:400;
+   margin:0;
+   padding-top:29px;
+}
+/* кнопка */
+.search-hostel{
+    width: 575px;
+    height:60px;
+    border-radius: 10px;
+    background: #756257;
+    color:#ffffff;
+    margin-top:56px;
+    padding:0;
+}
+/* содержимое */
+.search-hostel-sedona{
+    font-size:20px;
+    line-height:26px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+  
+/* footer */
+.background{
+    background: url("images/footer/background-footer.jpg")no-repeat ;
+    width: 1200px;
+    height:411px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:#ffffff;
+}
+.mailing{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top:94px;
+    margin:0;
+}
+
+.true-info{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    margin:0;
+    padding-top:29px;
+    padding-bottom:46px;
+}
+
+
+
+
+
+.inner-header{
+   
+    background:url("images/catalog/catalog.jpg") no-repeat;
+    color: white;
+}
+
+
