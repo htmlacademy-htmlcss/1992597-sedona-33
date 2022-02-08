@@ -20,7 +20,7 @@ body{
    line-height:21px;
    background: white;
    color: black;
-   margin:0 auto;
+   margin:0;
    
 }
 
@@ -402,15 +402,7 @@ padding-top:29px;
     margin-right: auto;
     color:#ffffff;
 }
-.mailing{
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-top:94px;
-    margin:0;
-   
-}
+
 
 .true-info{
     font-size: 22px;
@@ -422,12 +414,6 @@ padding-top:29px;
     
 }
 
-.mail-login{
-    text-align: center;
-    margin:0;
-    padding:0;
-    margin-top: 73px;
-}
 
 /* каталог */
 
@@ -441,31 +427,28 @@ padding-top:29px;
     height: 408px;
     color: white;
     background-color: #000000 no-repeat;
+    margin:0;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
    
    
 }
 
-.inner-header{
-    display:inline-block;
-    width:1200px;
-    padding-left: auto;
-    padding-right: auto;
-   
-    
-}
-.main-inner{
-    
-}
+
 
 /* заголовок */
 .inner-header-title{
-   font-size: 60px;
+
+   font-size: 60px; 
    line-height: 77px;
    font-weight: 700px;
    color: #FFFFFF;
-   padding-top:35px;
+   margin:0;
+   padding:0;
+   padding-top: 35px;
    padding-left:71px;
-   margin-bottom:0;
+   
 }
 
 /* хлебные крошки */
@@ -767,7 +750,7 @@ padding-top:29px;
     font-size:20px;
     line-height:26px;
     font-weight:700;
-    text-align: centter;
+    text-align: center;
     text-transform:uppercase;
 }
 
@@ -788,7 +771,11 @@ padding:0px;
     color:#ffffff;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
+    display: inline-block;
+    padding:15px;
+    
+    
+  
 }
 
 /* пункты списка */
@@ -800,6 +787,7 @@ padding:0px;
     color:#ffffff;
     width:55px;
     height:55px;
+    text-align: center;
     
     
 }
@@ -824,6 +812,7 @@ padding:0px;
     padding-left: 17px;
     padding-top: 13px;
     padding-bottom: 12px;
+    margin-bottom: 0;
     
     
 
@@ -835,7 +824,28 @@ padding:0px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:0;
+   
 }
 
+.mail-login{
+    text-align: center;
+    margin:0;
+    padding:0;
+    
+}
+
+.mailing{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top:94px;
+    margin:0;
+    padding-top: 73px;
+    
+   
+}
 
 
