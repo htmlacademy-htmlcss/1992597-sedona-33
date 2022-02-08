@@ -29,79 +29,81 @@ body{
     background:white;
     color:#000000;
     margin:0 auto;
-    
 }
 
-/* ссылки */
-.page-header a{
-    color:black;
+/* левые ссылки */
+.page-list{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    
+}
+.navigation-link{
+    display:block;
     font-size:20px;
     line-height:26px;
-    font-weight: 700;
-    text-decoration: none;
-    margin-right: 34px;
-}
-
-
-.page-list{
-    list-style-type:none;
+    font-weight:700;
+    color:#000000;
+    text-decoration:none;
+    padding-top:20px;
 }
 .list-item{
-    display:block;
-    margin-top:auto;
-    margin-bottom:auto;
-}
-
-
-
-.navigation-user{
-    list-style-type:none;  
-}
-
-.navigation{
-   display: flex;
-   width:1200px;
-   margin-left: auto;
-   margin-right: auto;
-   justify-content: space-between;
-   
-}
-
-
-/* флекс контейнер */
-.navigation-user{
-    display:flex;
-}
-
-.page-list{
-    display:flex;
-    padding:0;
-    margin:0;
+    padding-right:34px;
 }
 .logo{
-    margin:0;
-    padding:0;
-    padding-left: 70px;
-    padding-right: 47px;
- 
- }
-
- .want-here{
-    background: #756257;
-    color:#ffffff;
-    width:160px;
-    height:37px;
-    font-size: 16px;
-    line-height:20px;
-    font-weight:700;
-    text-transform:uppercase;
-    border-radius:4px;
-    margin-right: 70px;
-    
+    margin-right:47px;
+    margin-left:70px
 }
 
+/* правые ссылки */
+.navigation-list{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.navigation-link-user{
+    display: block;
+    font-size:20px;
+    line-height:26px;
+    font-weight:700;
+    color:#000000;
+    text-decoration:none;
+    padding-top:20px;  
+}
 
+.list-item-user{
+    margin-left:23px;
+}
+/* общий флекс */
 
+.navigation{
+    display:flex;
+    width:1200px;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.want-here{
+    border:solid 1px #756257;
+    background: #756257;
+    width: 160px;
+    height:37px;
+    color:#ffffff;
+
+    margin-top:18px;
+    margin-right: 70px;
+    padding-left: 18px;
+}
+.navigation-link-current{
+    font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding:10px;
+}
 
 /* фон */
 .gorgeous-sedona{
@@ -843,8 +845,21 @@ padding:0px;
     padding-top:94px;
     margin:0;
     padding-top: 73px;
-    
-   
 }
 
+/* иконки */
 
+.visually-hidden{
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    border:0;
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
+
+.catalog-footer-list{
+    list-style-type:none;
+}
