@@ -71,12 +71,20 @@ body{
     font-weight:700;
     color:#000000;
     text-decoration:none;
-    padding-top:20px;  
+    margin:0;
+    padding:0;
+    padding-top: 24px;
+    
+    
+}
+.search{
+    padding-right:23px;
+}
+.like{
+    padding-right:32px;
 }
 
-.list-item-user{
-    margin-left:23px;
-}
+
 /* общий флекс */
 
 .navigation{
@@ -93,19 +101,31 @@ body{
     height:37px;
     color:#ffffff;
 
-    margin-top:18px;
-    margin-right: 70px;
-    padding-left: 18px;
-    margin-left: 32px;
-}
-.navigation-link-current{
+    display: block;
     font-size:16px;
     line-height:20px;
     font-weight:700;
     color:#ffffff;
     text-transform:uppercase;
-    padding:10px;
+    
+    margin-right: 70px;
+    margin-top: 14px;
+    text-decoration: none;
 }
+.button{
+    border:2px solid #000000;
+    box-sizing: border-box;
+    width:48px;
+    height:48px;
+    margin-top:44px;
+    padding:13px;
+    margin-right: 8px;
+}
+
+.button-card{
+    margin-left:81px; 
+}
+
 
 /* фон */
 .gorgeous-sedona{
@@ -522,6 +542,7 @@ padding-top:29px;
   color:#000000;
   margin:0;
   margin-left: 71px;
+  margin-right:192px;
  
   margin-top: 50px;
 }
@@ -532,6 +553,8 @@ padding-top:29px;
   margin-left:auto;
 }
 .hostel-choice-select{
+    width:287px;
+    height:48px;
     font-size:18px;
     line-height: 23;
     font-weight: 400;
@@ -540,7 +563,7 @@ padding-top:29px;
     margin-top:44px;
     padding-top:12px;
     padding-bottom:13px;
-    padding-right:127px;
+   
     padding-left:19px;
 }
 
@@ -916,28 +939,48 @@ padding:0px;
     margin-right: auto;
     margin-left: auto;
 }
-.search{
-    display: inline-block;
-    width: 18px;
-    height:18px;
-    margin:0;
-    padding:0;
-    margin-bottom:23px;
-}
-.like{
-    display:block;
-    width: 18px;
-    height:17px;
-    margin:0;
-    padding:0;
-    
-    margin-left:23px;
-    padding-top:auto;
-    padding-bottom: auto; 
 
-}
+
 .bread{
     margin:0;
     padding:0;
     margin-left:72px;
 }
+.mymail{
+    display: flex;
+    width:1200px;
+    justify-content: center;
+    margin-bottom: 94px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+.email{
+    
+    width:600px;
+    height:60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #F2F2F2;
+    padding:0;
+    margin:0;
+}
+.mail{
+  
+    width:200px;
+    height:60px;
+    font-size:20px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #83B3D3;
+    padding:0;
+    margin:0;
+    margin-top:auto;
+    margin-bottom: auto;
+    text-transform: uppercace;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+

@@ -32,20 +32,20 @@
 
       <ul class="navigation-list">
         <li class="list-item-user">
-         <a class="navigation-link-user" href="#">
-    <img class="search" src="images/header/search-header.svg" alt="поиск"><span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="list-item-user like-user">
-          <a class="navigation-link-user" href="#">
-           <img class="like" src="images/header/like-header.svg" alt="поиск"><span class="visually-hidden">лайк</span>
+         <a class="navigation-link-user search" href="#">
+    <img src="images/header/search-header.svg" width="18px" height="18px"  alt="поиск">
+    <span class="visually-hidden">Поиск</span>
           </a>
         </li>
         <li class="list-item-user">
-          <button class="want-here" type="button">
-            <lable class="navigation-link-current">Хочу сюда!</lable>
-          </button>
+          <a class="navigation-link-user like" href="#">
+         <img src="images/header/like-header.svg" width="18px" height="18px" alt="поиск">
+           <span class="visually-hidden">лайк</span>
+          </a>
         </li>
+        <li class="list-item-user">
+          <a class="button-link" href="#"><button class="want-here">Хочу сюда!</button></a>
+          </li>
 
       </ul>
 
@@ -134,11 +134,10 @@
       <p class="true-info">Только полезная информация и никакого спама,</br>
         честное бойскаутское!</p>
       <!--поле для почты-->
-      <button class="mail" type="button">
-        <label for="login-field">Ваш e-mail</label>
-
-      </button>
-
+    <div class="mymail">
+      <input type="email" class="email" placeholder="Ваш email">
+      <button class="mail" type="submit">подписаться</button>
+     </div>
     </div>
 
   </main>

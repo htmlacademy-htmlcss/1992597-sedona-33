@@ -31,21 +31,22 @@
       </ul>
 
       <!--navigation-user-->
-
       <ul class="navigation-list">
         <li class="list-item-user">
-          <a class="navigation-link-user" href="#"><span class="visually-hidden">Поиск</span>
+         <a class="navigation-link-user search" href="#">
+    <img src="images/header/search-header.svg" width="18px" height="18px"  alt="поиск">
+    <span class="visually-hidden">Поиск</span>
           </a>
         </li>
         <li class="list-item-user">
-          <a class="navigation-link-user" href="#"><span class="visually-hidden">Лайк</span>
+          <a class="navigation-link-user like" href="#">
+         <img src="images/header/like-header.svg" width="18px" height="18px" alt="поиск">
+           <span class="visually-hidden">лайк</span>
           </a>
         </li>
         <li class="list-item-user">
-          <button class="want-here" type="button">
-            <lable class="navigation-link-current">Хочу сюда!</lable>
-          </button>
-        </li>
+          <a class="button-link" href="#"><button class="want-here">Хочу сюда!</button></a>
+          </li>
 
       </ul>
 
@@ -138,11 +139,11 @@
         <option value="expenciv">сначала дорогие</option>
       </select>
       <!--вид страницы-->
-      <a class="button button-card" href="#">
+      <a class="button button-card" href="#"><img src="images/mode-list.png" alt="">
         <span class="visually-hidden">показать карточки</span></a>
-      <a class="button button-all" href="#">
-        <span class="visually">во весь экран</span></a>
-      <a class="button button-list" href="#">
+      <a class="button button-all" href="#"><img src="images/mode.png" alt="">
+        <span class="visually-hidden">во весь экран</span></a>
+      <a class="button button-list" href="#"><img src="images/mode-tile.svg" alt="">
         <span class="visually-hidden">показать список</span></a>
 
     </section>
@@ -310,10 +311,12 @@
       <p class="true-info">Только полезная информация и никакого спама,</br>
         честное бойскаутское!</p>
       <!--поле для почты-->
-      <button class="mail" type="button">
-        <label for="login-field">Ваш e-mail</label>
-
-      </button>
+      <section class="mail-fiel">
+      <div class="mymail">
+        <input type="email" class="email" placeholder="Ваш email">
+        <button class="mail" type="submit">подписаться</button>
+       </div>
+      </section>
     </div>
 
 
