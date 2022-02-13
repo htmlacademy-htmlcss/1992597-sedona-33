@@ -114,6 +114,7 @@ body{
 }
 .button{
     border:2px solid #000000;
+    border-radius: 4px;
     box-sizing: border-box;
     width:48px;
     height:48px;
@@ -124,6 +125,12 @@ body{
 
 .button-card{
     margin-left:81px; 
+}
+.button-all{
+    border-color: #E5E5E5;
+}
+.button-list{
+    border-color: #E5E5E5; 
 }
 
 
