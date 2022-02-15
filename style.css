@@ -20,6 +20,8 @@ body{
    line-height:21px;
    background: white;
    color: black;
+   margin:0;
+   padding: ;
    
 }
 
@@ -27,78 +29,109 @@ body{
 .page-header{
     background:white;
     color:#000000;
-    
+    margin:0 auto;
 }
 
-/* ссылки */
-.page-header a{
-    color:black;
+/* левые ссылки */
+.page-list{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    
+}
+.navigation-link{
+    display:block;
     font-size:20px;
     line-height:26px;
-    font-weight: 700;
-    text-decoration: none;
-    margin-right: 34px;
-    
-    
-   
-}
-.page-list{
-    list-style-type:none;
+    font-weight:700;
+    color:#000000;
+    text-decoration:none;
+    padding-top:20px;
 }
 .list-item{
-    display:block;
-    margin-top:auto;
-    margin-bottom:auto;
-}
-
-
-.navigation-user{
-    list-style-type:none;  
-}
-
-.navigation{
-   display: flex;
-   width:1200px;
-   margin-left: auto;
-   margin-right: auto;
-   justify-content: space-between;
-   
-}
-
-
-/* флекс контейнер */
-.navigation-user{
-    display:flex;
-}
-
-.page-list{
-    display:flex;
-    padding:0;
-    margin:0;
+    padding-right:34px;
 }
 .logo{
+    margin-right:47px;
+    margin-left:70px
+}
+
+/* правые ссылки */
+.navigation-list{
+    display:flex;
+    list-style-type:none;
     margin:0;
     padding:0;
-    padding-left: 70px;
-    padding-right: 47px;
- 
- }
-
- .want-here{
-    background: #756257;
-    color:#ffffff;
-    width:160px;
-    height:37px;
-    font-size: 16px;
-    line-height:20px;
+}
+.navigation-link-user{
+    display: block;
+    font-size:20px;
+    line-height:26px;
     font-weight:700;
-    text-transform:uppercase;
-    border-radius:4px;
-    margin-right: 70px;
+    color:#000000;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    padding-top: 24px;
     
+    
+}
+.search{
+    padding-right:23px;
+}
+.like{
+    padding-right:32px;
 }
 
 
+/* общий флекс */
+
+.navigation{
+    display:flex;
+    width:1200px;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.want-here{
+    border:solid 1px #756257;
+    background: #756257;
+    width: 160px;
+    height:37px;
+    color:#ffffff;
+
+    display: block;
+    font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    color:#ffffff;
+    text-transform:uppercase;
+    
+    margin-right: 70px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+.button{
+    border:2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:48px;
+    height:48px;
+    margin-top:44px;
+    padding:13px;
+    margin-right: 8px;
+}
+
+.button-card{
+    margin-left:81px; 
+}
+.button-all{
+    border-color: #E5E5E5;
+}
+.button-list{
+    border-color: #E5E5E5; 
+}
 
 
 /* фон */
@@ -399,14 +432,7 @@ padding-top:29px;
     margin-right: auto;
     color:#ffffff;
 }
-.mailing{
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-top:94px;
-    margin:0;
-}
+
 
 .true-info{
     font-size: 22px;
@@ -415,16 +441,553 @@ padding-top:29px;
     margin:0;
     padding-top:29px;
     padding-bottom:46px;
+    
 }
 
 
+/* каталог */
 
 
 
+/* ф0н */
 .inner-header{
    
     background:url("images/catalog/catalog.jpg") no-repeat;
+    width:1200px;
+    height: 408px;
     color: white;
+    background-color: #000000 no-repeat;
+    margin:0;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
 }
 
+
+
+/* заголовок */
+.inner-header-title{
+
+   font-size: 60px; 
+   line-height: 77px;
+   font-weight: 700px;
+   color: #FFFFFF;
+   margin:0;
+   padding:0;
+   padding-top: 35px;
+   padding-left:71px;
+   
+}
+
+/* хлебные крошки */
+
+.breadcrumbs-item{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#ffffff;
+    text-decoration:none;
+    padding-left: 5px;
+
+    
+}
+.breadcrumbs-link{
+    text-decoration:none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#ffffff;
+   
+}
+.breadcrumbs{
+    display:block;
+  
+    margin-top:5px;
+    margin:0 auto;
+    margin-bottom: 45px;
+}
+.bread{
+    margin:0;
+    padding:0;
+    margin-left:72px;
+}
+
+.filter-parameter{
+    display:flex;
+    margin:0;
+    padding:0;
+    padding-left:71px;
+    
+}
+
+.filter-parameter-title{
+    font-size:20px;
+    line-height:26px;
+    font-weight:700;
+    color:#ffffff;
+}
+.filter-parameter-choice{
+    border:0px;
+}
+
+
+.filter-list-item{
+    list-style-type:none;
+    margin-right: 67px;
+}
+
+.button-header{
+   margin-left:252px; 
+}
+.hostel-choice-numder{
+  font-size:30px;
+  line-height:38px;
+  font-weight:700;
+  text-transform:uppercase;
+  color:#000000;
+  margin:0;
+  margin-left: 71px;
+  margin-right:192px;
+ 
+  margin-top: 50px;
+}
+.hostel-choice{
+  display:flex;
+  width:1200px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.hostel-choice-select{
+    width:287px;
+    height:48px;
+    font-size:18px;
+    line-height: 23;
+    font-weight: 400;
+    color: #333333;
+    border:solid 2px #E5E5E5;
+    margin-top:44px;
+    padding-top:12px;
+    padding-bottom:13px;
+   
+    padding-left:19px;
+}
+
+
+.my-hostel-link{
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    
+}
+
+.hostel-link{
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.about-hostel-card{
+    text-decoration:none; 
+}
+
+.hostel-title{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    color:#000000;
+    margin:0;
+    padding:0;
+    padding-left:20px;
+    padding-top:16px;
+
+}
+.my-hostel-item{
+    border:solid 1px #ffffff ;
+    width:340px;
+    height:438px;
+    
+    background-color:#ffffff;
+    color:#000000;
+
+}
+
+.product-card{
+    margin:20px;
+    margin-bottom:0px;
+}
+
+.cost{
+    border:solid 1px #ffffff;
+    width:133px;
+    height:23px;
+    background-color:#ffffff;
+    color:#000000;
+    font-size:18px;
+    line-height: 23px;
+    font-weight:400;
+}
+
+.cost-in{
+    border:solid 1px #ffffff ;
+    width:143px;
+    height:23px;
+    background-color:#ffffff;
+    color:#000000;
+    font-size:18px;
+    line-height: 23px;
+    font-weight:400;
+   
+    
+}  
+
+.hostel-cost{
+    display:flex;
+    column-gap:25px;
+    margin-left:20px;
+    margin-right:19px;
+}
+
+.hostel-card-button{
+    width:140px;
+    height:37px;
+    border-radius:4px;
+    border-color:#83B3D3 ;
+    background: #83B3D3;
+    
+    color:#ffffff;
+    font-size:16px;
+    line-height: 20px;
+    font-weight: 700px;
+    text-transform:uppercase;
+    
+}
+.green{
+    width:140px;
+    height:37px;
+    border-radius:4px;
+    border-color: #7DB54F;
+    background:#7DB54F ;
+    
+    color:#ffffff;
+    font-size:16px;
+    line-height: 20px;
+    font-weight: 700px;
+    text-transform:uppercase;
+   
+
+}
+
+.about-hostel-card-link{
+    width:133px;
+    height:37px;
+    border-radius:4px;
+    background: #756257;
+    border-color:#756257;
+    margin-left: 20px;
+    margin-right: 25px;
+   
+    
+    
+    
+
+}
+.about-hostel-card{
+    color:#ffffff;
+    font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center;
+   
+}
+.hostel-rating{
+  border:solid 1px #F2F2F2;
+  border-radius: 4px;
+  width:160px;
+  height:37px;
+
+ 
+  font-size:18px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform:uppercase;
+  
+  
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 9px;
+  
+  
+}
+.hostel-stars{
+    margin-top:26px;
+}
+
+.rating{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.my-hostel-link{
+    display:flex;
+    flex-wrap:wrap;
+    width:1200px;
+    
+}
+
+.my-hostel-1{
+    margin-left:72px;
+    margin-top: 56px;
+}
+.my-hostel-2{
+    margin-left:18px;
+    margin-right:18px;
+    margin-top:53px;
+}
+.my-hostel-3{
+    margin-top:53px;
+}
+.my-hostel-4{
+    margin:10px 72px;
+}
+
+/* загрузить ещё */
+
+.loading-more{
+  
+    width:617px;
+    height:60px; 
+    background: #83B3D3;
+    border-color:#83B3D3;
+    border-radius:4px;
+    color:#ffffff;
+    margin:0;
+    padding:0;
+    margin:30px;
+}
+
+.border{
+    border-top: 1px solid #E5E5E5;
+    width:1055px;
+    margin-top:54px;
+    border-bottom: 1px solid #E5E5E5;
+    width:1055px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+.loading{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:20px;
+    line-height:26px;
+    font-weight:700;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+/* пагинация */
+
+/* список */
+.pagination-list{
+display:flex;
+list-style-type:none;
+column-gap: 7px;
+margin:0px;
+padding:0px;
+}
+/* ссылки списка */
+.pagination-link{
+    
+    text-decoration:none;
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 26px;
+    display: inline-block;
+    padding:15px;
+    
+    
+  
+}
+
+/* пункты списка */
+.pagination-item{
+    
+    border:1px solid  #83B3D3;
+    border-radius: 4px;
+    background-color:#83B3D3 ;
+    color:#ffffff;
+    width:55px;
+    height:55px;
+    text-align: center;
+    
+    
+}
+
+.title-choice{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color:#333333;
+    
+
+}
+
+.hostel-title-choice{
+    width:160px;
+    height:48px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color:#333333;
+    margin-left: 51px;
+    padding-left: 17px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    
+    
+
+}
+
+.page-choice{
+    display:flex;
+    width:1055px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0;
+   
+}
+
+.mail-login{
+    text-align: center;
+    margin:0;
+    padding:0;
+    
+}
+
+.mailing{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top:94px;
+    margin:0;
+    padding-top: 73px;
+}
+
+/* иконки */
+
+.visually-hidden{
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    border:0;
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
+.footer-contact-number{
+    width: 750px;
+    font-size: 40px;
+    line-height: 40px;
+    color:#000000;
+    list-style-type:none;
+  
+}
+
+.social-list{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    margin-left:72px;
+    margin-top: auto;
+    
+
+}
+.image-link-twitter{
+    width:18px;
+    height:15px;
+    margin-right: 30px;
+}
+ .image-link-facebook{
+    width:10px;
+    height:18px;
+    margin-right: 30px;  
+ }
+ .image-link-youtube{
+    width:20px;
+    height:16px; 
+ }   
+   
+
+.link{
+    margin:0;
+    padding:0;
+    margin-top: auto;
+    margin-right:72px;
+}
+
+.footer-social{
+    display:flex;
+    width:1200px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.bread{
+    margin:0;
+    padding:0;
+    margin-left:72px;
+}
+.mymail{
+    display: flex;
+    width:1200px;
+    justify-content: center;
+    margin-bottom: 94px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+.email{
+    
+    width:600px;
+    height:60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #F2F2F2;
+    padding:0;
+    margin:0;
+}
+.mail{
+  
+    width:200px;
+    height:60px;
+    font-size:20px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #83B3D3;
+    padding:0;
+    margin:0;
+    margin-top:auto;
+    margin-bottom: auto;
+    text-transform: uppercace;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
 
